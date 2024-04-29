@@ -1,7 +1,7 @@
 # LAB 9
 # CAMBIO SEGUN TSX
 ***
-Uno de los cambios que podemos observar es al inicializar el proyecto :
+Uno de los cambios que podemos observar es al inicializar el proyecto :  
 **yarn create vite lab-9**  
 **[1/4] Resolving packages...**  
 **[2/4] Fetching packages...**  
@@ -14,7 +14,7 @@ Uno de los cambios que podemos observar es al inicializar el proyecto :
 **√ Select a variant: » TypeScript**  
 En este caso debemos eligir React como framework y TypeScript como lenguaje.
 ***
-Sin embargo, el cambio principal para adaptar el proyecto a TypeScript es la introducción de tipado. En nuestro caso, basándonos en la API, la estructura de los productos se vería de la siguiente manera:
+Sin embargo, el cambio principal para adaptar el proyecto a TypeScript es la introducción de tipado. En nuestro caso, basándonos en la API, la estructura de los productos se vería de la siguiente manera:  
 **export interface Product {**  
     **id: number;**  
     **title: string;**  
